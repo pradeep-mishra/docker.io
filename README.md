@@ -31,7 +31,7 @@ The defaults for the connection options are:
 
 ### Methods
 
-We have implamented most of the container methods like:
+We have implemented most of the container methods like:
 
 - list
 
@@ -261,4 +261,4 @@ function handler(err, res) {
 docker.info(handler);
 ```
 
-Other methods are implamented but a little buggy... PULL REQUESTS ARE WELCOME!
+Other methods are implemented but a little buggy... PULL REQUESTS ARE WELCOME!
