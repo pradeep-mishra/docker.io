@@ -1,6 +1,6 @@
 docker.io
 =========
-[![Build Status](http://ci.appersonlabs.com/523a593eadee7e386d000008/appersonlabs/docker.io/badge)](http://ci.appersonlabs.com/appersonlabs/docker.io/)
+[![Build Status](https://7.hidemyass.com/ip-1/encoded/Oi8vY2kuYXBwZXJzb25sYWJzLmNvbS9pbWFnZXMvYmFkZ2VzL2J1aWxkX3Bhc3NpbmcucG5n)](http://ci.appersonlabs.com/appersonlabs/docker.io/)
 [![Dep Status](https://david-dm.org/appersonlabs/docker.io.png)](https://david-dm.org/appersonlabs/docker.io)
 [![devDependency Status](https://david-dm.org/appersonlabs/docker.io/dev-status.png)](https://david-dm.org/appersonlabs/docker.io#info=devDependencies)
 
