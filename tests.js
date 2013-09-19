@@ -82,13 +82,17 @@ describe("docker.io", function() {
 
       it("should attach to a container", function(done) {
         this.timeout(50000);
-
+        
+        var called = false;
         function handler(err, res) {
+          if(!called) {
+            called = true;
             expect(err).to.be.null;
 
             expect(res).to.have.string('Hello');
 
             done();
+          }
         }
 
         docker.containers.attach(someContainerID, {logs: true, stdin: true, stream: true, stdout: true}, handler);
@@ -224,7 +228,15 @@ describe("docker.io", function() {
           done();
         }
 
-        docker.containers.remove(someContainerID, handler);
+
+        // have to create a new container cus we killed the last one...
+        docker.containers.create({
+          Image: 'ubuntu',
+          Cmd: ["bash", "-c", "while true; do echo Hello world; sleep 1; done"]
+        }, function(err, res) {
+          docker.containers.remove(res.Id, handler);
+
+        });
       });
     });
 
