@@ -1,6 +1,6 @@
 docker.io
 =========
-[![Build Status](http://ci.appersonlabs.com/523a593eadee7e386d000008/appersonlabs/docker.io/badge)](http://ci.appersonlabs.com/appersonlabs/docker.io)
+[![Build Status](http://ci.appersonlabs.com/523a593eadee7e386d000008/appersonlabs/docker.io/badge)](http://ci.appersonlabs.com/appersonlabs/docker.io/)
 
 Node.JS wrapper for low-level Docker.io HTTP interface
 
