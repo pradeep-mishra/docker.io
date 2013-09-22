@@ -51,7 +51,7 @@ docker.containers.list(options /* optional*/, function(err, res) {
 
 PULL REQUESTS ARE WELCOME!
 
-Concerned that your PR would change too much? file a ticket, I am willing to hear arguments for change :)
+Concerned that your PR would change too much? File a ticket, I am willing to hear arguments for change :)
 
 ## License
 
