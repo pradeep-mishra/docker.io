@@ -45,7 +45,6 @@ docker.containers.list(options /* optional*/, function(err, res) {
     console.log("data returned from Docker as JS object: ", res);
 });
 
-
 ```
 
 
