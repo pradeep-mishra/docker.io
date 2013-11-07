@@ -22,7 +22,8 @@
   "dependencies": {
     "querystring": "*",
     "follow-redirects": "*",
-    "flat-validator": "git://github.com/appersonlabs/flat-validator.git"
+    "flat-validator": "git://github.com/appersonlabs/flat-validator.git",
+    "event-stream": "3.0.16"
   },
   "devDependencies": {
     "chai": "~1.8.0",
