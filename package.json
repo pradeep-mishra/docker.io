@@ -1,10 +1,10 @@
 {
   "name": "docker.io",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "wrapper for the docker.io REST interface",
   "main": "./lib",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R tap tests.js"
+    "test": "./node_modules/mocha/bin/mocha -u tdd -R spec --check-leaks --slow 15 tests.js"
   },
   "repository": {
     "type": "git",
