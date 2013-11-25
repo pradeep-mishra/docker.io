@@ -4,6 +4,8 @@ docker.io
 [![Dep Status](https://david-dm.org/appersonlabs/docker.io.png)](https://david-dm.org/appersonlabs/docker.io)
 [![devDependency Status](https://david-dm.org/appersonlabs/docker.io/dev-status.png)](https://david-dm.org/appersonlabs/docker.io#info=devDependencies)
 
+[![NPM](https://nodei.co/npm/docker.io.png?downloads=true&stars=true)](https://nodei.co/npm/docker.io/)
+
 Node.JS wrapper for low-level Docker.io HTTP interface
 
 ## Usage
